@@ -59,13 +59,9 @@ fun BusinessCard() {
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
         ContactRow(
             text = stringResource(R.string.my_phone_number),
-            textBlur = 5.dp,
             icon = Icons.Rounded.Phone
         )
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
-        ContactRow(
-            text = stringResource(R.string.twitter_handle), icon = Icons.Rounded.Share
-        )
         Divider(modifier = Modifier.fillMaxWidth(), color = Color(0xFF4F6C79))
         ContactRow(
             text = stringResource(R.string.my_email), icon = Icons.Rounded.Email
